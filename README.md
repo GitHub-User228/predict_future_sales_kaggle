@@ -12,6 +12,9 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-000814?style=for-the-badge)
 ![LightGBM](https://img.shields.io/badge/LightGBM-778da9?style=for-the-badge)
 ![Optuna](https://img.shields.io/badge/Optuna-778da9?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![transformers](https://img.shields.io/badge/transformers-green?style=for-the-badge&)
 
 Repository which contains code for the Kaggle competition: [Predict Future Sales](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)
 
@@ -47,6 +50,8 @@ The following ML models are considered, because they can deal with missing data:
 Also, a stacking ensemble is considered on the top of considered models. 
 It is trained by splitting data in a half, where first half is used to train the first layer models, while
 the second half - the meta model
+
+CUDF library is utilised to accelerate the EDA and feature engineering using NVIDIA GPU.
 
 # Kaggle results
 
