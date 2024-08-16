@@ -1,5 +1,5 @@
 
-models/
+*.pkl
 data/
 
 
