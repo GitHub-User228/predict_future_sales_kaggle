@@ -1,0 +1,11 @@
+n_estimators: 100
+num_iterations: 100
+num_leaves: 363
+learning_rate: 0.08089380674162157
+max_bin: 208
+min_data_in_bin: 28
+feature_fraction: 0.9017020096997507
+bagging_fraction: 0.7829314531537903
+bagging_freq: 5
+random_state: 42
+verbosity: -1

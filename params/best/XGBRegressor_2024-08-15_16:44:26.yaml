@@ -1,0 +1,15 @@
+colsample_bylevel: 0.6134703745409981
+colsample_bynode: 0.7143754222172809
+colsample_bytree: 0.8344854771885063
+device: cpu
+learning_rate: 0.11523568287372915
+max_bin: 242
+max_depth: 9
+max_leaves: 141
+n_jobs: 16
+objective: reg:squarederror
+random_state: 42
+sampling_method: uniform
+subsample: 0.6056159296423442
+tree_method: hist
+verbosity: 0

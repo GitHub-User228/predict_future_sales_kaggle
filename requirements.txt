@@ -1,0 +1,12 @@
+seaborn==0.13.2
+jupyter==1.0.0
+statsmodels==0.14.2 
+torch==2.3.1
+transformers==4.42.4
+sentence-transformers==3.0.1
+optuna==3.6.1
+holidays==0.53
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.1
+xgboost==2.0.3
+lightgbm==4.5.0

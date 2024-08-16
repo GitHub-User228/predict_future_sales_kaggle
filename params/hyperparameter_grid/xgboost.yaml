@@ -1,0 +1,89 @@
+max_leaves:
+  method: suggest_int
+  kwargs:
+    low: 32
+    high: 511
+    step: 1
+max_depth:
+  method: suggest_categorical
+  kwargs:
+    choices: [9]
+max_bin:
+  method: suggest_int
+  kwargs:
+    low: 128
+    high: 255
+    step: 1
+
+learning_rate:
+  method: suggest_loguniform
+  kwargs:
+    low: 0.00001
+    high: 1
+# lambda:
+#   method: suggest_loguniform
+#   kwargs:
+#     low: 0.0001
+#     high: 1
+# alpha:
+#   method: suggest_loguniform
+#   kwargs:
+#     low: 0.0001
+#     high: 1
+
+
+
+subsample:
+  method: suggest_uniform
+  kwargs:
+    low: 0.4
+    high: 0.9
+colsample_bytree:
+  method: suggest_uniform
+  kwargs:
+    low: 0.4
+    high: 0.9
+colsample_bylevel:
+  method: suggest_uniform
+  kwargs:
+    low: 0.4
+    high: 0.9
+colsample_bynode:
+  method: suggest_uniform
+  kwargs:
+    low: 0.4
+    high: 0.9
+
+
+# max_cached_hist_node:
+#   method: suggest_categorical
+#   kwargs:
+#     choices: [32768]
+sampling_method:
+  method: suggest_categorical
+  kwargs:
+    choices: [uniform]
+tree_method:
+  method: suggest_categorical
+  kwargs:
+    choices: [hist]
+objective:
+  method: suggest_categorical
+  kwargs:
+    choices: [reg:squarederror]
+device:
+  method: suggest_categorical
+  kwargs:
+    choices: [cpu]
+n_jobs:
+  method: suggest_categorical
+  kwargs:
+    choices: [16]
+random_state:
+  method: suggest_categorical
+  kwargs:
+    choices: [42]
+verbosity:
+  method: suggest_categorical
+  kwargs:
+    choices: [0]

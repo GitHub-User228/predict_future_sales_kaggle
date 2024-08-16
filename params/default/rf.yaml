@@ -1,0 +1,7 @@
+n_estimators: 200
+max_depth: 12
+n_bins: 512
+min_samples_split: 14
+min_samples_leaf: 2
+max_features: sqrt
+random_state: 42

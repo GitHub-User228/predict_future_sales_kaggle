@@ -1,0 +1,10 @@
+bagging_fraction: 0.8459684194927704
+bagging_freq: 5
+feature_fraction: 0.6943689004309856
+learning_rate: 0.018021983444422882
+max_bin: 210
+min_data_in_bin: 12
+n_estimators: 760
+num_leaves: 829
+random_state: 42
+verbosity: -1

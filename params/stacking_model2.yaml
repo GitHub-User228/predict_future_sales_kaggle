@@ -1,0 +1,19 @@
+meta_model:
+    class_name: LGBMRegressor
+    fitted_model_path: meta_LGBMRegressor_2024-08-15_23:24:38.pkl
+    is_gpu_accelerated: false
+    module: lightgbm
+    params_path: ../params/best/LGBMRegressor_2024-08-15_10:58:47.yaml
+models:
+    model1:
+        class_name: LGBMRegressor
+        fitted_model_path: model1_LGBMRegressor_2024-08-15_22:40:41.pkl
+        is_gpu_accelerated: false
+        module: lightgbm
+        params_path: ../params/best/LGBMRegressor_2024-08-15_10:58:47.yaml
+    model2:
+        class_name: XGBRegressor
+        fitted_model_path: model2_XGBRegressor_2024-08-15_22:40:41.pkl
+        is_gpu_accelerated: false
+        module: xgboost
+        params_path: ../params/best/XGBRegressor_2024-08-15_16:44:26.yaml

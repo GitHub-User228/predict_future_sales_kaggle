@@ -1,0 +1,73 @@
+
+n_estimators:
+  method: suggest_int
+  kwargs:
+    low: 100
+    high: 400
+    step: 1    
+
+# max_depth:
+#   method: suggest_int
+#   kwargs:
+#     low: 5
+#     high: 10
+#     step: 1
+num_leaves:
+  method: suggest_int
+  kwargs:
+    low: 32
+    high: 511
+    step: 1
+
+learning_rate:
+  method: suggest_loguniform
+  kwargs:
+    low: 0.0001
+    high: 1
+
+max_bin:
+  method: suggest_int
+  kwargs:
+    low: 128
+    high: 255
+    step: 1
+min_data_in_bin:
+  method: suggest_int
+  kwargs:
+    low: 3
+    high: 32
+    step: 1
+# subsample_for_bin:
+#   method: suggest_int
+#   kwargs:
+#     low: 200000
+#     high: 300000
+#     step: 1  
+
+feature_fraction:
+  method: suggest_uniform
+  kwargs:
+    low: 0.5
+    high: 1
+bagging_fraction:
+  method: suggest_uniform
+  kwargs:
+    low: 0.5
+    high: 1
+bagging_freq:
+  method: suggest_categorical
+  kwargs:
+    choices: [5]
+
+num_threads:
+  method: suggest_categorical
+  kwargs:
+    choices: [16]
+random_state:
+  method: suggest_categorical
+  kwargs:
+    choices: [42]
+verbosity:
+  method: suggest_categorical
+  kwargs:
+    choices: [-1]
